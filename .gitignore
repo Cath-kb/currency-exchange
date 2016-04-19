@@ -1,0 +1,6 @@
+.dpd
+data
+node_modules
+*.log
+
+.idea

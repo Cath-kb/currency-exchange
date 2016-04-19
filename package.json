@@ -1,0 +1,15 @@
+{
+  "name": "currency-exchange",
+  "version": "0.0.1",
+  "description": "cogniance currency exchange",
+  "main": "index.js",
+  "dependencies": {
+    "dpd-passport": "git+ssh://git@bitbucket.org:VolCh/dpd-passport.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "catherine karnyushina",
+  "license": "ISC"
+}
