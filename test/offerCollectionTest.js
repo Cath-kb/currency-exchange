@@ -8,7 +8,7 @@ describe('OfferCollection', function () {
         });
     });
     describe('#add', function () {
-        it('should return one length', function () {
+        it('length: should return one ', function () {
             var offers = new OfferCollection();
             offers.add({});
             assert.equal(1, offers.length());
@@ -19,7 +19,8 @@ describe('OfferCollection', function () {
             offers.add(offer);
             assert.equal(offer, offers.getFirst());
         });
-        it('should return two length', function () {
+
+        it('length: should return two ', function () {
             var offers = new OfferCollection();
             offers.add({});
             offers.add({});
@@ -35,6 +36,4 @@ describe('OfferCollection', function () {
             assert.equal(secondOffer, offers.getLast());
         });
     });
-    describe('#filter', function () {});
-    describe('#remove', function () {});
 });

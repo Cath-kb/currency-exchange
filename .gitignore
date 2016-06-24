@@ -1,6 +1,8 @@
 .dpd
 data
+drafts
 node_modules
 *.log
+*.*~
 
 .idea

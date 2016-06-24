@@ -1,5 +1,5 @@
-var filterCollection = function () {
+var filter = function () {
 
 };
 
-module.exports = filterCollection;
+module.exports = filter;

@@ -1,5 +1,17 @@
-var filterCollection = function () {
+var order = function () {
 
 };
 
-module.exports = filterCollection;
+order.prototype.add = function () {
+
+};
+
+order.prototype.edit = function () {
+
+};
+
+order.prototype.close = function () {
+
+};
+
+module.exports = order;
